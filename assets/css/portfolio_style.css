@@ -1,0 +1,67 @@
+
+/*
+  ========================================
+  Portfolio Info Section 
+  ========================================
+*/
+
+.portfolio-info {
+	color: #4aaaa5;
+	background-color: #ffffff;
+	width: 650px;
+	padding: 0 20px;
+	border: 1px solid #dddddd;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: left;
+}
+
+/*
+  ========================================
+  Porfolio Section
+  ========================================
+*/
+
+#cooking-image,
+#baking-image,
+#pets-image,
+#coding-image,
+#games-image {
+	width: 250px;
+	height: 200px;
+	margin-bottom: 50px;
+}
+
+.cooking-text,
+.baking-text,
+.pets-text,
+.coding-text,
+.gaming-text {
+	color: white;
+	position: absolute;
+	background-color: #4aaaa5;
+	font-size: 18px;
+	padding-top: 15px;
+	height: 50px;
+	width: 250px;
+	transform: translateY(140px);
+}
+
+.portfolioList {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.portfolioList div:nth-child(odd) {
+	margin-left: 30px;
+	margin-right: 45px;
+}
+
+

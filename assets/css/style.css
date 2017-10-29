@@ -1,0 +1,349 @@
+* {
+  box-sizing: border-box;
+}
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #ffffff;
+	margin: 8px;
+	width: auto;
+}	
+
+/*
+  ========================================
+  header styles
+  ========================================
+*/
+
+header {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #cccccc;
+}
+
+.header-container {
+	width: 960px;
+	display: inline-flex;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 350px;
+	float: left;
+	text-align: center;
+	height: 100px;
+	padding-top: 35px;
+	margin-bottom: 0;
+	font-size: 24px;
+	margin-left: 10px;
+	margin-top: 30px;
+	font-weight: bold;
+}	
+
+/*
+  ========================================
+  nav
+  ========================================
+*/
+
+nav {
+	margin-top: 35px;
+	float: right;
+	margin-left: auto;
+}
+
+.primary-nav li {
+	display: inline-block;
+	padding: 0 10px;
+	vertical-align: top;
+}
+
+li:not(:last-child) {
+    border-right: 1px solid lightgray;
+}
+
+.primary-nav a {
+	color: #777777;
+	font-size: 20px;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+/*
+  ========================================
+  Main Container 
+  ========================================
+*/
+
+.main-container {
+	clear: both;
+	background-image: url("../../assets/images/background_pink_rice.png");
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+/*
+  ========================================
+  Main Content Area
+  ========================================
+*/
+
+.content-area {
+	width: 960px;
+	margin: 30px 0;
+	display: inline-block;
+}
+
+/*
+  ========================================
+  All About Me and Contact Info Section 
+  ========================================
+*/
+
+.all-about-me {
+	color: #4aaaa5;
+	background-color: #ffffff;
+	width: 650px;
+	padding: 0 20px;
+	border: 1px solid #dddddd;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+
+h2
+{
+	font-size: 2em;
+	font-weight: bold;
+	text-align: left;
+}
+
+h3 {
+	color: #4aaaa5;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.17em;
+}
+
+h2,
+h3 {
+	margin: 20px 0;
+	padding-bottom: 20px;
+	border-bottom: 2px solid darkgray;
+}
+
+/*
+  ========================================
+  Image link
+  ========================================
+*/
+
+#about-me-image {
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+}
+
+/*
+  ========================================
+  Typography 
+  ========================================
+*/
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+/*
+  ========================================
+  Online Profile 
+  ========================================
+*/
+
+.online-profile {
+	float: right;
+	width: 270px;
+	padding: 0 20px;
+	background-color: #ffffff;
+	margin-left: 40px;
+	border: 1px solid #dddddd;
+}
+
+.online-profile img {
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+/*
+  ========================================
+ 	Hover Nav/links
+  ========================================
+*/
+a:hover {
+  color: #4aaaa5;
+}
+
+/*
+  ========================================
+ 	Image tag style
+  ========================================
+*/
+
+img {
+	border-radius: 8px;
+	display: inline-block;
+}
+
+/*
+  ========================================
+ Footer
+  ========================================
+*/
+
+footer {
+	clear: both;
+	text-align: center;
+  	padding: 40px 0;
+  	background-color: gray;
+  	color: white;
+  	border-top: 10px solid #4aaaa5;
+  	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+  	left:0;	
+}
+
+
+/*
+  ========================================
+  640 Screen Size Media Query
+  ========================================
+*/
+
+@media screen and (max-width: 640px) {
+	body {
+		background-color: #ffffff;
+		margin: 0;
+	}
+	
+	/*
+  	==========================
+  	header styles
+  	==========================
+	*/
+	
+	.header-container {
+		width: 100%;
+		display: block;
+	}
+
+	h1 {
+		padding: 30px 0;
+		font-size: 28px;
+		margin: 0;
+		width: 100%;
+	}
+
+	/*
+  	==========================
+  	nav
+  	==========================
+	*/
+
+	nav {
+		float: none;
+		margin-top: 0;
+	}
+
+	ul {
+		width: 100%;
+		display: inline-flex;
+		padding: 30px 0;
+	}
+
+	.primary-nav li {
+		padding: 0 70px;
+	}
+
+	/*
+ 	==========================
+  	Main Content Area
+  	==========================
+	*/
+
+	.content-area {
+		width: 100%;
+	}
+	
+	/*
+  	==========================
+  	About me
+  	==========================
+	*/
+	.all-about-me {
+		width: 600px;
+		margin: 0 10px;
+		padding: 0 30px;
+	}
+
+	h2 {
+		color:#4aaaa5;
+	}
+
+	/*
+  	===========================
+  	Image link
+  	===========================
+	*/
+
+	#about-me-image {
+		width: 540px;
+		margin: 0 0 20px 0;
+	}
+
+	/*
+  	===========================
+  	Online Profile 
+ 	===========================
+	*/
+
+	.online-profile {
+		float: none;
+		width: 600px;
+		border: 1px solid #dddddd;
+		text-align: left;
+		margin: 20px 20px;
+	}
+
+	.online-profile img {
+		margin-bottom: 20px;
+		margin-right: 10px;
+	}
+
+	h3 {
+		text-align: left;
+		font-size: 24px;
+	}
+
+	/*
+  	===========================
+ 	Image tag style
+  	===========================
+	*/
+
+	img {
+		width: 60px;
+	}
+	
+	.footer-size {
+		height: 102px;
+	}
+
