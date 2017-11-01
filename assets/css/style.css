@@ -12,8 +12,6 @@ body {
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-color: #ffffff;
-	margin: 8px;
-	width: auto;
 }	
 
 /*
@@ -30,8 +28,9 @@ header {
 }
 
 .header-container {
-	width: 960px;
-	display: inline-flex;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
 }
 
 h1 {
@@ -40,12 +39,10 @@ h1 {
 	width: 350px;
 	float: left;
 	text-align: center;
-	height: 100px;
-	padding-top: 35px;
+	padding-top: 25px;
 	margin-bottom: 0;
-	font-size: 24px;
+	font-size: 28px;
 	margin-left: 10px;
-	margin-top: 30px;
 	font-weight: bold;
 }	
 
@@ -54,21 +51,23 @@ h1 {
   nav
   ========================================
 */
-
-nav {
-	margin-top: 35px;
-	float: right;
-	margin-left: auto;
-}
-
 .primary-nav li {
 	display: inline-block;
 	padding: 0 10px;
 	vertical-align: top;
 }
 
-li:not(:last-child) {
-    border-right: 1px solid lightgray;
+
+hr {
+	width: 1px;
+	height: 20px;
+	margin: 0;
+}
+
+ul {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px 0;
 }
 
 .primary-nav a {
@@ -240,45 +239,28 @@ footer {
 		margin: 0;
 	}
 
+	
 	/*
   	==========================
   	header styles
   	==========================
 	*/
-	
-	.header-container {
-		width: 100%;
-		display: block;
-	}
 
 	h1 {
-		padding: 30px 0;
-		font-size: 28px;
 		margin: 0 20px;
 		width: 300px;
-		margin-left: 85px;
 	}
 
 	/*
-  	==========================
-  	nav
-  	==========================
-	*/
-	
-	.primary-nav {
-		margin-right: 100px;
-	}
-
-	/*
- 	==========================
+	==========================
   	Main Content Area
   	==========================
 	*/
 
 	.content-area {
-		width: 900px;
+		width: auto;
 	}
-	
+
 	/*
   	==========================
   	About me
@@ -286,8 +268,7 @@ footer {
 	*/
 
 	.all-about-me {
-		width: 440px;
-		margin-left: 50px;
+		width: 360px;
 	}
 
 	h2 {
@@ -305,18 +286,7 @@ footer {
 		padding-bottom: 10px;
 	}
 
-	/*
-  	===========================
-  	Online Profile 
- 	===========================
-	*/
-
-	.online-profile {
-		margin: 0 70px;
-	}
-
 }
-
 /*
   ========================================
   768 Screen Size Media Query
@@ -336,18 +306,11 @@ footer {
   	==========================
 	*/
 	
-	.header-container {
-		width: 100%;
-		display: block;
-	}
-
 	h1 {
-		padding: 30px 0;
-		font-size: 28px;
 		margin: 0 20px;
 		width: 300px;
 	}
-
+	
 	/*
   	==========================
   	nav
@@ -355,7 +318,8 @@ footer {
 	*/
 	
 	.primary-nav {
-		margin-right: 20px;
+		float: none;
+		margin: 0;
 	}
 
 	/*
@@ -363,6 +327,11 @@ footer {
   	Main Content Area
   	==========================
 	*/
+
+	.main-container {
+		display: flex;
+		justify-content: space-evenly;
+	}
 
 	.content-area {
 		width: 100%;
@@ -375,7 +344,7 @@ footer {
 	*/
 
 	.all-about-me {
-		width: 728px;
+		width: 95%;
 		margin: 0 10px;
 		padding: 0 30px;
 	}
@@ -402,7 +371,7 @@ footer {
 
 	.online-profile {
 		float: none;
-		width: 728px;
+		width: 95%;
 		border: 1px solid #dddddd;
 		text-align: left;
 		margin: 35px 15px;
@@ -449,17 +418,14 @@ footer {
   	header styles
   	==========================
 	*/
-	
 	.header-container {
-		width: 100%;
 		display: block;
 	}
 
 	h1 {
-		padding: 30px 0;
-		font-size: 28px;
 		margin: 0;
 		width: 100%;
+		padding-bottom: 25px;
 	}
 
 	/*
@@ -468,19 +434,11 @@ footer {
   	==========================
 	*/
 
-	nav {
-		float: none;
-		margin-top: 0;
-	}
-
 	ul {
 		width: 100%;
-		display: inline-flex;
+		display: flex;
+		justify-content: space-around;
 		padding: 30px 0;
-	}
-
-	.primary-nav li {
-		padding: 0 70px;
 	}
 
 	/*
@@ -499,7 +457,7 @@ footer {
   	==========================
 	*/
 	.all-about-me {
-		width: 600px;
+		width: 90%;
 		margin: 0 10px;
 		padding: 0 30px;
 	}
@@ -515,7 +473,7 @@ footer {
 	*/
 
 	#about-me-image {
-		width: 540px;
+		width: 100%;
 		margin: 0 0 20px 0;
 	}
 
@@ -526,11 +484,8 @@ footer {
 	*/
 
 	.online-profile {
-		float: none;
-		width: 600px;
-		border: 1px solid #dddddd;
-		text-align: left;
-		margin: 35px 15px;
+		width: 90%;
+		display: inline-block;
 	}
 
 	.online-profile img {
@@ -553,6 +508,11 @@ footer {
 		width: 60px;
 	}
 }
+
+
+
+	
+
 
 
 
