@@ -26,6 +26,7 @@ h2 {
   ========================================
 */
 
+#liri-image,
 #cooking-image,
 #baking-image,
 #pets-image,
@@ -36,6 +37,7 @@ h2 {
 	margin-bottom: 50px;
 }
 
+.liri-app,
 .cooking-text,
 .baking-text,
 .pets-text,
@@ -99,7 +101,8 @@ h2 {
   	Portfolio List
   	===========================
 	*/
-
+	
+	.liri-app-node,
 	.about-me-cooking,
 	.about-me-baking,
 	.about-me-pets,
@@ -113,6 +116,7 @@ h2 {
 		margin-right: 0;
 	}
 	
+	.liri-app,
 	.cooking-text,
 	.baking-text,
 	.pets-text,
@@ -122,6 +126,7 @@ h2 {
 		transform: translateY(240px);
 	}
 
+	#liri-image,
 	#cooking-image,
 	#baking-image,
 	#pets-image,
@@ -176,6 +181,7 @@ h2 {
   	===========================
 	*/
 
+	.liri-app-node,
 	.about-me-cooking,
 	.about-me-baking,
 	.about-me-pets,
@@ -184,6 +190,7 @@ h2 {
 		width: 45%;
 	}
 
+	#liri-image,
 	#cooking-image,
 	#baking-image,
 	#pets-image,
@@ -194,6 +201,7 @@ h2 {
 		margin-bottom: 0;
 	}
 
+	.liri-app,
 	.cooking-text,
 	.baking-text,
 	.pets-text,
@@ -239,6 +247,7 @@ h2 {
   	===========================
 	*/
 
+	.liri-app-node,
 	.about-me-cooking,
 	.about-me-baking,
 	.about-me-pets,
@@ -253,6 +262,7 @@ h2 {
 		margin-right: 0;
 	}
 	
+	.liri-app,
 	.cooking-text,
 	.baking-text,
 	.pets-text,
@@ -264,6 +274,7 @@ h2 {
 		transform: translateY(330px);
 	}
 
+	#liri-image,
 	#cooking-image,
 	#baking-image,
 	#pets-image,
