@@ -5,20 +5,20 @@
 */
 
 .portfolio-info {
-	background-color: #ffffff;
-	padding: 0 20px;
-	border: 1px solid #dddddd;
-	display: inline-block;
-	margin-bottom: 100px;
-	width: 650px;
+    background-color: #ffffff;
+    padding: 0 20px;
+    border: 1px solid #dddddd;
+    display: inline-block;
+    margin-bottom: 100px;
+    width: 650px;
 }
-
 
 h2 {
-	font-size: 2em;
-	font-weight: bold;
-	text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
 }
+
 
 /*
   ========================================
@@ -27,41 +27,42 @@ h2 {
 */
 
 #liri-image,
+#hangmanGame-image,
 #cooking-image,
 #baking-image,
 #pets-image,
-#coding-image,
-#games-image {
-	width: 250px;
-	height: 200px;
-	margin-bottom: 50px;
+#coding-image {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 50px;
 }
 
 .liri-app,
+.hangmanGame-app,
 .cooking-text,
 .baking-text,
 .pets-text,
-.coding-text,
-.gaming-text {
-	color: white;
-	position: absolute;
-	background-color: #4aaaa5;
-	font-size: 18px;
-	padding-top: 15px;
-	height: 50px;
-	width: 250px;
-	transform: translateY(140px);
+.coding-text {
+    color: white;
+    position: absolute;
+    background-color: #4aaaa5;
+    font-size: 18px;
+    padding-top: 15px;
+    height: 50px;
+    width: 250px;
+    transform: translateY(140px);
 }
 
 .portfolioList {
-	display: flex;
-	flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .portfolioList div:nth-child(odd) {
-	margin-left: 30px;
-	margin-right: 45px;
+    margin-left: 30px;
+    margin-right: 45px;
 }
+
 
 /*
   ========================================
@@ -70,72 +71,63 @@ h2 {
 */
 
 @media screen and (max-width: 980px) {
-
-	body {
-		background-color: #ffffff;
-		margin: 0;
-	}
-
-	/*
+    body {
+        background-color: #ffffff;
+        margin: 0;
+    }
+    /*
  	==========================
   	Main Content Area
   	==========================
 	*/
-
-	.content-area {
-		width: auto;
-	}
-
-	/*
+    .content-area {
+        width: auto;
+    }
+    /*
   	==========================
   	Portfolio Info
   	==========================
 	*/
-
-	.portfolio-info {
-		width: 440px;
-	}
-
-	/*
+    .portfolio-info {
+        width: 440px;
+    }
+    /*
   	===========================
   	Portfolio List
   	===========================
 	*/
-	
-	.liri-app-node,
-	.about-me-cooking,
-	.about-me-baking,
-	.about-me-pets,
-	.about-me-coding,
-	.about-me-games {
-		width: 100%;
-	}
-
-	.portfolioList div:nth-child(odd) {
-		margin-left: 0;
-		margin-right: 0;
-	}
-	
-	.liri-app,
-	.cooking-text,
-	.baking-text,
-	.pets-text,
-	.coding-text,
-	.gaming-text {
-		width: 398px;
-		transform: translateY(240px);
-	}
-
-	#liri-image,
-	#cooking-image,
-	#baking-image,
-	#pets-image,
-	#coding-image,
-	#games-image {
-		width: 100%;
-		height: 300px;
-	}
+    .liri-app-node,
+    .hangmanGame,
+    .about-me-cooking,
+    .about-me-baking,
+    .about-me-pets,
+    .about-me-coding {
+        width: 100%;
+    }
+    .portfolioList div:nth-child(odd) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .liri-app,
+    .hangmanGame-app,
+    .cooking-text,
+    .baking-text,
+    .pets-text,
+    .coding-text {
+        width: 398px;
+        transform: translateY(240px);
+    }
+    #liri-image,
+    #hangmanGame-image,
+    #cooking-image,
+    #baking-image,
+    #pets-image,
+    #coding-image {
+        width: 100%;
+        height: 300px;
+    }
 }
+
 
 /*
   ========================================
@@ -144,80 +136,70 @@ h2 {
 */
 
 @media screen and (max-width: 768px) {
-
-	body {
-		background-color: #ffffff;
-		margin: 0;
-	}
-
-	h2 {
-		margin-bottom: 0;
-	}
-
-	/*
+    body {
+        background-color: #ffffff;
+        margin: 0;
+    }
+    h2 {
+        margin-bottom: 0;
+    }
+    /*
  	==========================
  	Main Content Area
   	==========================
 	*/
-
-	.content-area {
-		width: 100%;
-	}
-
-	/*
+    .content-area {
+        width: 100%;
+    }
+    /*
   	==========================
   	Portfolio Info
   	==========================
 	*/
-
-	.portfolio-info {
-		width: 95%;
-		padding-bottom: 50px;
-	}
-
-	/*
+    .portfolio-info {
+        width: 95%;
+        padding-bottom: 50px;
+    }
+    /*
   	===========================
   	Portfolio List
   	===========================
 	*/
-
-	.liri-app-node,
-	.about-me-cooking,
-	.about-me-baking,
-	.about-me-pets,
-	.about-me-coding,
-	.about-me-games {
-		width: 45%;
-	}
-
-	#liri-image,
-	#cooking-image,
-	#baking-image,
-	#pets-image,
-	#coding-image,
-	#games-image {
-		width: 100%;
-		height: 200px;
-		margin-bottom: 0;
-	}
-
-	.liri-app,
-	.cooking-text,
-	.baking-text,
-	.pets-text,
-	.coding-text,
-	.gaming-text {
-		display: block;
-		position: relative;	
-		width: 100%;
-		transform: translateY(190px);
-	}
-
-	.portfolioList div:nth-child(odd) {
-		margin-left: 0px;
-		margin-right: 45px;
-	}
+    .liri-app-node,
+    .hangmanGame,
+    .about-me-cooking,
+    .about-me-baking,
+    .about-me-pets,
+    .about-me-coding {
+        width: 45%;
+    }
+    #liri-image,
+    #hangmanGame-image,
+    #cooking-image,
+    #baking-image,
+    #pets-image,
+    #coding-image {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 0;
+    }
+    .liri-app,
+    .hangmanGame-app,
+    .cooking-text,
+    .baking-text,
+    .pets-text,
+    .coding-text {
+        display: block;
+        position: relative;
+        width: 100%;
+        transform: translateY(190px);
+    }
+    .portfolioList div:nth-child(odd) {
+        margin-left: 0px;
+        margin-right: 45px;
+    }
 }
+
 
 /*
   ========================================
@@ -226,63 +208,54 @@ h2 {
 */
 
 @media screen and (max-width: 640px) {
-	
-	body {
-		background-color: #ffffff;
-		margin: 0;
-	}
-
-	/*
+    body {
+        background-color: #ffffff;
+        margin: 0;
+    }
+    /*
   	==========================
   	Portfolio Info
   	==========================
 	*/
-	.portfolio-info {
-		width: 90%;
-	}
-
-	/*
+    .portfolio-info {
+        width: 90%;
+    }
+    /*
   	===========================
   	Portfolio List
   	===========================
 	*/
-
-	.liri-app-node,
-	.about-me-cooking,
-	.about-me-baking,
-	.about-me-pets,
-	.about-me-coding,
-	.about-me-games {
-		width: 100%;
-		height: 400px;
-	}
-
-	.portfolioList div:nth-child(odd) {
-		margin-left: 0;
-		margin-right: 0;
-	}
-	
-	.liri-app,
-	.cooking-text,
-	.baking-text,
-	.pets-text,
-	.coding-text,
-	.gaming-text {
-		display: block;
-		position: relative;	
-		width: 100%;
-		transform: translateY(330px);
-	}
-
-	#liri-image,
-	#cooking-image,
-	#baking-image,
-	#pets-image,
-	#coding-image,
-	#games-image {
-		width: 100%;
-		height: 350px;
-	}
+    .liri-app-node,
+    .hangmanGame,
+    .about-me-cooking,
+    .about-me-baking,
+    .about-me-pets,
+    .about-me-coding {
+        width: 100%;
+        height: 400px;
+    }
+    .portfolioList div:nth-child(odd) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .liri-app,
+    .hangmanGame-app,
+    .cooking-text,
+    .baking-text,
+    .pets-text,
+    .coding-text {
+        display: block;
+        position: relative;
+        width: 100%;
+        transform: translateY(330px);
+    }
+    #liri-image,
+    #hangmanGame-image,
+    #cooking-image,
+    #baking-image,
+    #pets-image,
+    #coding-image {
+        width: 100%;
+        height: 350px;
+    }
 }
-
-
