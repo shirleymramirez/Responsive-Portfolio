@@ -26,23 +26,13 @@ h2 {
   ========================================
 */
 
-#liri-image,
-#hangmanGame-image,
-#cooking-image,
-#baking-image,
-#pets-image,
-#coding-image {
+#homework-image {
     width: 250px;
     height: 200px;
     margin-bottom: 50px;
 }
 
-.liri-app,
-.hangmanGame-app,
-.cooking-text,
-.baking-text,
-.pets-text,
-.coding-text {
+.homework-text {
     color: white;
     position: absolute;
     background-color: #4aaaa5;
@@ -96,33 +86,18 @@ h2 {
   	Portfolio List
   	===========================
 	*/
-    .liri-app-node,
-    .hangmanGame,
-    .about-me-cooking,
-    .about-me-baking,
-    .about-me-pets,
-    .about-me-coding {
+    .homework {
         width: 100%;
     }
     .portfolioList div:nth-child(odd) {
         margin-left: 0;
         margin-right: 0;
     }
-    .liri-app,
-    .hangmanGame-app,
-    .cooking-text,
-    .baking-text,
-    .pets-text,
-    .coding-text {
+    .homework-text {
         width: 398px;
         transform: translateY(240px);
     }
-    #liri-image,
-    #hangmanGame-image,
-    #cooking-image,
-    #baking-image,
-    #pets-image,
-    #coding-image {
+    #homework-image {
         width: 100%;
         height: 300px;
     }
@@ -165,30 +140,15 @@ h2 {
   	Portfolio List
   	===========================
 	*/
-    .liri-app-node,
-    .hangmanGame,
-    .about-me-cooking,
-    .about-me-baking,
-    .about-me-pets,
-    .about-me-coding {
+    .homework {
         width: 45%;
     }
-    #liri-image,
-    #hangmanGame-image,
-    #cooking-image,
-    #baking-image,
-    #pets-image,
-    #coding-image {
+    #homework-image {
         width: 100%;
         height: 200px;
         margin-bottom: 0;
     }
-    .liri-app,
-    .hangmanGame-app,
-    .cooking-text,
-    .baking-text,
-    .pets-text,
-    .coding-text {
+    .homework-text {
         display: block;
         position: relative;
         width: 100%;
@@ -225,12 +185,7 @@ h2 {
   	Portfolio List
   	===========================
 	*/
-    .liri-app-node,
-    .hangmanGame,
-    .about-me-cooking,
-    .about-me-baking,
-    .about-me-pets,
-    .about-me-coding {
+    .homework {
         width: 100%;
         height: 400px;
     }
@@ -238,23 +193,13 @@ h2 {
         margin-left: 0;
         margin-right: 0;
     }
-    .liri-app,
-    .hangmanGame-app,
-    .cooking-text,
-    .baking-text,
-    .pets-text,
-    .coding-text {
+    .homework-text {
         display: block;
         position: relative;
         width: 100%;
         transform: translateY(330px);
     }
-    #liri-image,
-    #hangmanGame-image,
-    #cooking-image,
-    #baking-image,
-    #pets-image,
-    #coding-image {
+    #homework-image {
         width: 100%;
         height: 350px;
     }
